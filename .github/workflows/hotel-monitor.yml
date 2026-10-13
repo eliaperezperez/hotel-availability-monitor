@@ -1,0 +1,53 @@
+name: Hotel availability monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every hour, offset from the top of the hour to reduce GitHub Actions queueing.
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hotel-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Check hotel availability
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python monitor.py
+
+      - name: Persist state
+        if: always()
+        run: |
+          [ -f state.json ] || exit 0
+          git config user.name "hotel-monitor[bot]"
+          git config user.email "hotel-monitor[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update hotel monitor state"
+          git pull --rebase
+          git push
