@@ -9,7 +9,7 @@ on:
         default: false
   schedule:
     # Every hour, offset from the top of the hour to reduce GitHub Actions queueing.
-    - cron: '17 * * * *'
+    - cron: '23 * * * *'
 
 permissions:
   contents: write

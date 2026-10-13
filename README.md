@@ -4,14 +4,14 @@ This repository is configured to check the 10 hotels hourly using Playwright and
 
 ## How it works
 
-- Runs manually or every hour at minute 17.
+- Runs manually or every hour at minute 23.
 - Opens each Booking page with the requested dates for 2 adults / 1 room.
 - Saves the previous availability in `state.json`.
 - Opens a notification issue only when a hotel/date combination changes from unavailable to available.
 - The issue includes the Booking URL and the lowest price shown (EUR).
 - Detection uses Booking's room table (`#hprt-table`) vs. the explicit `#no_availability_msg` block. If neither appears (captcha/block/markup change), the check counts as an error; when at least half the checks fail, a one-time warning issue is opened so the strategy can be changed.
 
-Scheduled Actions can be delayed during high-load periods; the workflow therefore runs at minute 17 rather than exactly at the top of each hour.
+Scheduled Actions can be delayed during high-load periods; the workflow therefore runs at minute 23 rather than exactly at the top of each hour.
 
 ## Setup
 
