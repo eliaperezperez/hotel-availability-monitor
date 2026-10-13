@@ -2,12 +2,18 @@ name: Hotel availability monitor
 
 on:
   workflow_dispatch:
+    inputs:
+      test_notification:
+        description: 'Send a test notification issue'
+        type: boolean
+        default: false
   schedule:
     # Every hour, offset from the top of the hour to reduce GitHub Actions queueing.
     - cron: '17 * * * *'
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: hotel-monitor
@@ -34,11 +40,8 @@ jobs:
 
       - name: Check hotel availability
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          ALERT_TO: ${{ secrets.ALERT_TO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEST_NOTIFICATION: ${{ inputs.test_notification }}
         run: python monitor.py
 
       - name: Persist state

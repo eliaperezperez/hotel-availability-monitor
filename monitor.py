@@ -1,11 +1,10 @@
 import json
 import os
 import re
-import smtplib
 import sys
 import time
+import urllib.request
 from datetime import datetime, timezone
-from email.message import EmailMessage
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
@@ -151,36 +150,32 @@ def save_state(state):
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def send_email(subject, body):
-    if not os.getenv("SMTP_HOST"):
-        print("SMTP not configured, skipping email:\n" + body)
+def notify(subject, body):
+    """Open a GitHub issue that @mentions the owner, so GitHub sends an email/mobile notification."""
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPOSITORY")
+    if not token or not repo:
+        print(f"GitHub not configured, skipping notification:\n{subject}\n{body}")
         return
-    host = os.environ["SMTP_HOST"]
-    port = int(os.getenv("SMTP_PORT") or "465")
-    user = os.environ["SMTP_USER"]
-    password = os.environ["SMTP_PASSWORD"]
-    to = os.environ["ALERT_TO"]
-
-    msg = EmailMessage()
-    msg["Subject"] = subject
-    msg["From"] = user
-    msg["To"] = to
-    msg.set_content(body)
-
-    if port == 465:
-        with smtplib.SMTP_SSL(host, port, timeout=30) as server:
-            server.login(user, password)
-            server.send_message(msg)
-    else:
-        with smtplib.SMTP(host, port, timeout=30) as server:
-            server.ehlo()
-            server.starttls()
-            server.ehlo()
-            server.login(user, password)
-            server.send_message(msg)
+    mention = os.getenv("NOTIFY_USER") or repo.split("/")[0]
+    payload = json.dumps({"title": subject, "body": f"@{mention}\n\n{body}"}).encode("utf-8")
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{repo}/issues",
+        data=payload,
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        print("Notification issue created:", json.loads(resp.read())["html_url"])
 
 
 def main():
+    if os.getenv("TEST_NOTIFICATION") == "true":
+        notify("✅ Prueba de aviso - monitor de hoteles", "Si recibes esto, las alertas funcionan. Puedes cerrar este issue.")
     state = load_state()
     meta = state.setdefault("_meta", {})
     found, errors = [], []
@@ -222,14 +217,14 @@ def main():
     if found:
         lines = ["¡Disponibilidad detectada en Booking!\n"]
         for x in found:
-            lines.append(f"{x['name']} | {x['checkin']} -> {x['checkout']} | Desde: {x['price'] or 'ver Booking'}\n{x['url']}\n")
-        send_email("🏨 Disponibilidad de hotel encontrada - Costa Rica", "\n".join(lines))
+            lines.append(f"- **{x['name']}** | {x['checkin']} -> {x['checkout']} | Desde: {x['price'] or 'ver Booking'}\n  {x['url']}\n")
+        notify("🏨 Disponibilidad de hotel encontrada - Costa Rica", "\n".join(lines))
         print(f"Sent {len(found)} availability alert(s).")
 
     # Warn (once per incident) when Booking appears to block most checks, so the strategy can be changed.
     blocked = checks > 0 and len(errors) >= max(1, checks // 2)
     if blocked and not meta.get("blocked_alert_sent"):
-        send_email(
+        notify(
             "⚠️ Monitor de hoteles: Booking parece estar bloqueando",
             f"{len(errors)}/{checks} comprobaciones fallaron. Puede ser captcha/bloqueo de Booking "
             "o un cambio en la web. Hay que cambiar de estrategia.\n\n" + "\n".join(errors),
