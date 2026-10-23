@@ -1,7 +1,7 @@
 {
   "_meta": {
     "blocked_alert_sent": false,
-    "last_run": "2026-10-23T12:04:18.877634+00:00",
+    "last_run": "2026-10-23T13:17:08.624731+00:00",
     "last_errors": 0
   },
   "Hotel Lomas del Volcan|2026-12-25|2026-12-27": {
@@ -9,97 +9,97 @@
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/lomas-del-volcan.es.html?checkin=2026-12-25&checkout=2026-12-27&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:27.106074+00:00"
+    "checked_at": "2026-10-23T13:16:12.790377+00:00"
   },
   "Tifakara by the Waterfall|2026-12-25|2026-12-27": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tifakara-lodge.es.html?checkin=2026-12-25&checkout=2026-12-27&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:30.977166+00:00"
+    "checked_at": "2026-10-23T13:16:17.001467+00:00"
   },
   "La Fortuna Retreat|2026-12-25|2026-12-27": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/fortuna-retreat.es.html?checkin=2026-12-25&checkout=2026-12-27&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:35.120184+00:00"
+    "checked_at": "2026-10-23T13:16:21.048444+00:00"
   },
   "Hotel Boutique Casa del Rio|2026-12-25|2026-12-27": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html?checkin=2026-12-25&checkout=2026-12-27&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:39.060842+00:00"
+    "checked_at": "2026-10-23T13:16:25.608086+00:00"
   },
   "El Establo Mountain|2026-12-27|2026-12-28": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/el-establo-mountain.es.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:42.753756+00:00"
+    "checked_at": "2026-10-23T13:16:29.909086+00:00"
   },
   "Ecotica Boutique|2026-12-27|2026-12-28": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/byblos.es.html?checkin=2026-12-27&checkout=2026-12-28&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:46.349806+00:00"
+    "checked_at": "2026-10-23T13:16:34.022439+00:00"
   },
   "River Lodge|2026-12-28|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/river-lodge.es.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:50.370614+00:00"
+    "checked_at": "2026-10-23T13:16:38.009331+00:00"
   },
   "River Lodge|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/river-lodge.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:53.864535+00:00"
+    "checked_at": "2026-10-23T13:16:41.848009+00:00"
   },
   "Tiki Villas Rainforest Lodge|2026-12-28|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tikivillas-rainforest-lodge.es.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:03:57.546634+00:00"
+    "checked_at": "2026-10-23T13:16:45.768492+00:00"
   },
   "Tiki Villas Rainforest Lodge|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tikivillas-rainforest-lodge.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:04:02.075694+00:00"
+    "checked_at": "2026-10-23T13:16:50.484753+00:00"
   },
   "Rancho Pacifico|2026-12-28|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/rancho-pacifico.es.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:04:05.926157+00:00"
+    "checked_at": "2026-10-23T13:16:54.503314+00:00"
   },
   "Rancho Pacifico|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/rancho-pacifico.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:04:09.656394+00:00"
+    "checked_at": "2026-10-23T13:16:58.676257+00:00"
   },
   "Nature's Edge|2026-12-28|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nature-39-s-edge-cabinas.es.html?checkin=2026-12-28&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:04:13.232141+00:00"
+    "checked_at": "2026-10-23T13:17:02.640182+00:00"
   },
   "Nature's Edge|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nature-39-s-edge-cabinas.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-10-23T12:04:16.785100+00:00"
+    "checked_at": "2026-10-23T13:17:06.553440+00:00"
   }
 }
