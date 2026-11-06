@@ -17,56 +17,22 @@ ALERTS = [
     {
         "name": "Hotel Lomas del Volcan",
         "url": "https://www.booking.com/hotel/cr/lomas-del-volcan.es.html",
-        "checkin": "2026-12-25", "checkout": "2026-12-27",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
     },
     {
         "name": "Tifakara by the Waterfall",
         "url": "https://www.booking.com/hotel/cr/tifakara-lodge.es.html",
-        "checkin": "2026-12-25", "checkout": "2026-12-27",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
     },
     {
         "name": "La Fortuna Retreat",
         "url": "https://www.booking.com/hotel/cr/fortuna-retreat.es.html",
-        "checkin": "2026-12-25", "checkout": "2026-12-27",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
     },
     {
         "name": "Hotel Boutique Casa del Rio",
         "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html",
-        "checkin": "2026-12-25", "checkout": "2026-12-27",
-    },
-    {
-        "name": "El Establo Mountain",
-        "url": "https://www.booking.com/hotel/cr/el-establo-mountain.es.html",
-        "checkin": "2026-12-27", "checkout": "2026-12-28",
-    },
-    {
-        "name": "Ecotica Boutique",
-        "url": "https://www.booking.com/hotel/cr/byblos.es.html",
-        "checkin": "2026-12-27", "checkout": "2026-12-28",
-    },
-    {
-        "name": "River Lodge",
-        "url": "https://www.booking.com/hotel/cr/river-lodge.es.html",
-        "checkin": "2026-12-28", "checkout": "2026-12-31",
-        "alternate": {"checkin": "2026-12-29", "checkout": "2026-12-31"},
-    },
-    {
-        "name": "Tiki Villas Rainforest Lodge",
-        "url": "https://www.booking.com/hotel/cr/tikivillas-rainforest-lodge.es.html",
-        "checkin": "2026-12-28", "checkout": "2026-12-31",
-        "alternate": {"checkin": "2026-12-29", "checkout": "2026-12-31"},
-    },
-    {
-        "name": "Rancho Pacifico",
-        "url": "https://www.booking.com/hotel/cr/rancho-pacifico.es.html",
-        "checkin": "2026-12-28", "checkout": "2026-12-31",
-        "alternate": {"checkin": "2026-12-29", "checkout": "2026-12-31"},
-    },
-    {
-        "name": "Nature's Edge",
-        "url": "https://www.booking.com/hotel/cr/nature-39-s-edge-cabinas.es.html",
-        "checkin": "2026-12-28", "checkout": "2026-12-31",
-        "alternate": {"checkin": "2026-12-29", "checkout": "2026-12-31"},
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
     },
 ]
 
@@ -147,6 +113,9 @@ def load_state():
 
 
 def save_state(state):
+    active = {f"{a['name']}|{a['checkin']}|{a['checkout']}" for a in ALERTS}
+    active |= {f"{a['name']}|{a['alternate']['checkin']}|{a['alternate']['checkout']}" for a in ALERTS if a.get('alternate')}
+    state = {k: v for k, v in state.items() if k == "_meta" or k in active}
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 

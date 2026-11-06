@@ -1,6 +1,6 @@
 # Costa Rica hotel availability monitor
 
-This repository is configured to check the 10 hotels hourly using Playwright and Booking.com pages. Hotels 7-10 are checked for both the original date range and the alternative 29 Dec - 31 Dec range. Hotels 1-6 are checked only for their original dates.
+This repository checks 4 La Fortuna hotels (29-31 Dec 2026) hourly using Playwright and Booking.com pages. Edit `ALERTS` in `monitor.py` to change hotels or dates.
 
 ## How it works
 
