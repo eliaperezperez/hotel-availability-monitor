@@ -34,6 +34,36 @@ ALERTS = [
         "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html",
         "checkin": "2026-12-29", "checkout": "2026-12-31",
     },
+    {
+        "name": "Nayara Springs",
+        "url": "https://www.booking.com/hotel/cr/nayara-springs.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
+    {
+        "name": "Nayara Gardens",
+        "url": "https://www.booking.com/hotel/cr/arenal-nayara-gardens.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
+    {
+        "name": "Amor Arenal",
+        "url": "https://www.booking.com/hotel/cr/amor-arenal.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
+    {
+        "name": "Nayara Tented Camp",
+        "url": "https://www.booking.com/hotel/cr/nayara-tented-camp.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
+    {
+        "name": "The Springs Resort",
+        "url": "https://www.booking.com/hotel/cr/the-springs-resort.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
+    {
+        "name": "Chachagua Rainforest",
+        "url": "https://www.booking.com/hotel/cr/chachagua-rainforest.es.html",
+        "checkin": "2026-12-29", "checkout": "2026-12-31",
+    },
 ]
 
 # DOM signals verified against Booking hotel pages (Oct 2026):

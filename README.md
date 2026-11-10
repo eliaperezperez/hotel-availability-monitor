@@ -1,6 +1,6 @@
 # Costa Rica hotel availability monitor
 
-This repository checks 4 La Fortuna hotels (29-31 Dec 2026) hourly using Playwright and Booking.com pages. Edit `ALERTS` in `monitor.py` to change hotels or dates.
+This repository checks 10 La Fortuna / Arenal hotels (29-31 Dec 2026) hourly using Playwright and Booking.com pages. Edit `ALERTS` in `monitor.py` to change hotels or dates.
 
 ## How it works
 
