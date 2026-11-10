@@ -1,7 +1,7 @@
 {
   "_meta": {
     "blocked_alert_sent": false,
-    "last_run": "2026-11-10T10:09:38.579284+00:00",
+    "last_run": "2026-11-10T10:54:18.763170+00:00",
     "last_errors": 0
   },
   "Hotel Lomas del Volcan|2026-12-29|2026-12-31": {
@@ -9,69 +9,69 @@
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/lomas-del-volcan.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:08:59.430006+00:00"
+    "checked_at": "2026-11-10T10:53:40.018613+00:00"
   },
   "Tifakara by the Waterfall|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tifakara-lodge.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:03.805243+00:00"
+    "checked_at": "2026-11-10T10:53:44.117547+00:00"
   },
   "La Fortuna Retreat|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/fortuna-retreat.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:07.849484+00:00"
+    "checked_at": "2026-11-10T10:53:48.498801+00:00"
   },
   "Hotel Boutique Casa del Rio|2026-12-29|2026-12-31": {
     "available": true,
     "price": "720 EUR",
     "rooms": 2,
     "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:12.628227+00:00"
+    "checked_at": "2026-11-10T10:53:52.902249+00:00"
   },
   "Nayara Springs|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-springs.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:16.454335+00:00"
+    "checked_at": "2026-11-10T10:53:56.869297+00:00"
   },
   "Nayara Gardens|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/arenal-nayara-gardens.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:20.258002+00:00"
+    "checked_at": "2026-11-10T10:54:00.764320+00:00"
   },
   "Amor Arenal|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/amor-arenal.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:24.533173+00:00"
+    "checked_at": "2026-11-10T10:54:04.650600+00:00"
   },
   "Nayara Tented Camp|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-tented-camp.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:28.369626+00:00"
+    "checked_at": "2026-11-10T10:54:08.556179+00:00"
   },
   "The Springs Resort|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/the-springs-resort.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:32.348501+00:00"
+    "checked_at": "2026-11-10T10:54:12.371149+00:00"
   },
   "Chachagua Rainforest|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/chachagua-rainforest.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-10T10:09:36.476025+00:00"
+    "checked_at": "2026-11-10T10:54:16.633087+00:00"
   }
 }
