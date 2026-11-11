@@ -1,8 +1,8 @@
 {
   "_meta": {
     "blocked_alert_sent": false,
-    "last_run": "2026-11-11T18:04:46.596673+00:00",
-    "last_errors": 0
+    "last_run": "2026-11-11T19:07:28.910453+00:00",
+    "last_errors": 4
   },
   "Hotel Lomas del Volcan|2026-12-29|2026-12-31": {
     "available": false,
@@ -30,28 +30,28 @@
     "price": "823 EUR",
     "rooms": 2,
     "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:11.211641+00:00"
+    "checked_at": "2026-11-11T19:06:25.316130+00:00"
   },
   "Nayara Springs|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-springs.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:17.941127+00:00"
+    "checked_at": "2026-11-11T19:06:32.514549+00:00"
   },
   "Nayara Gardens|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/arenal-nayara-gardens.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:22.012039+00:00"
+    "checked_at": "2026-11-11T19:06:36.737929+00:00"
   },
   "Amor Arenal|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/amor-arenal.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:26.776996+00:00"
+    "checked_at": "2026-11-11T19:06:44.308864+00:00"
   },
   "Nayara Tented Camp|2026-12-29|2026-12-31": {
     "available": false,
@@ -65,13 +65,13 @@
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/the-springs-resort.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:37.812384+00:00"
+    "checked_at": "2026-11-11T19:07:19.025129+00:00"
   },
   "Chachagua Rainforest|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/chachagua-rainforest.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-11T18:04:44.517357+00:00"
+    "checked_at": "2026-11-11T19:07:26.841876+00:00"
   }
 }
