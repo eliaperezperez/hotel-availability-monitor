@@ -1,64 +1,64 @@
 {
   "_meta": {
     "blocked_alert_sent": false,
-    "last_run": "2026-11-12T15:40:22.900800+00:00",
-    "last_errors": 0
+    "last_run": "2026-11-12T16:41:48.768086+00:00",
+    "last_errors": 1
   },
   "Hotel Lomas del Volcan|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/lomas-del-volcan.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:39:43.854149+00:00"
+    "checked_at": "2026-11-12T16:40:42.405142+00:00"
   },
   "Tifakara by the Waterfall|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tifakara-lodge.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:39:48.010770+00:00"
+    "checked_at": "2026-11-12T16:40:46.909381+00:00"
   },
   "La Fortuna Retreat|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/fortuna-retreat.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:39:51.717778+00:00"
+    "checked_at": "2026-11-12T16:40:53.215368+00:00"
   },
   "Hotel Boutique Casa del Rio|2026-12-29|2026-12-31": {
     "available": true,
     "price": "827 EUR",
     "rooms": 2,
     "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:39:56.194715+00:00"
+    "checked_at": "2026-11-12T16:40:57.577337+00:00"
   },
   "Nayara Springs|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-springs.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:40:00.189329+00:00"
+    "checked_at": "2026-11-12T16:41:01.694091+00:00"
   },
   "Nayara Gardens|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/arenal-nayara-gardens.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:40:03.922486+00:00"
+    "checked_at": "2026-11-12T16:41:05.768913+00:00"
   },
   "Amor Arenal|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/amor-arenal.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:40:08.292948+00:00"
+    "checked_at": "2026-11-12T16:41:10.708579+00:00"
   },
   "Nayara Tented Camp|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-tented-camp.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:40:12.326649+00:00"
+    "checked_at": "2026-11-12T16:41:14.725863+00:00"
   },
   "The Springs Resort|2026-12-29|2026-12-31": {
     "available": false,
@@ -72,6 +72,6 @@
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/chachagua-rainforest.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T15:40:20.814102+00:00"
+    "checked_at": "2026-11-12T16:41:46.689343+00:00"
   }
 }
