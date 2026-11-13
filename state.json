@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "blocked_alert_sent": false,
-    "last_run": "2026-11-12T20:06:41.245450+00:00",
-    "last_errors": 1
+    "blocked_alert_sent": true,
+    "last_run": "2026-11-13T01:15:19.446150+00:00",
+    "last_errors": 6
   },
   "Hotel Lomas del Volcan|2026-12-29|2026-12-31": {
     "available": false,
@@ -16,7 +16,7 @@
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/tifakara-lodge.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T20:05:37.765255+00:00"
+    "checked_at": "2026-11-13T01:12:39.392652+00:00"
   },
   "La Fortuna Retreat|2026-12-29|2026-12-31": {
     "available": false,
@@ -27,24 +27,24 @@
   },
   "Hotel Boutique Casa del Rio|2026-12-29|2026-12-31": {
     "available": true,
-    "price": "827 EUR",
+    "price": "830 EUR",
     "rooms": 2,
     "url": "https://www.booking.com/hotel/cr/casa-del-rio-la-fortuna.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T18:42:51.087865+00:00"
+    "checked_at": "2026-11-13T01:13:12.496889+00:00"
   },
   "Nayara Springs|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/nayara-springs.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T20:06:15.254843+00:00"
+    "checked_at": "2026-11-13T01:13:20.253363+00:00"
   },
   "Nayara Gardens|2026-12-29|2026-12-31": {
     "available": false,
     "price": null,
     "rooms": 0,
     "url": "https://www.booking.com/hotel/cr/arenal-nayara-gardens.es.html?checkin=2026-12-29&checkout=2026-12-31&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
-    "checked_at": "2026-11-12T20:06:22.048243+00:00"
+    "checked_at": "2026-11-13T01:13:27.675876+00:00"
   },
   "Amor Arenal|2026-12-29|2026-12-31": {
     "available": false,
